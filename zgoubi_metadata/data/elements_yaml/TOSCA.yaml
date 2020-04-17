@@ -1,31 +1,31 @@
 zgoubi_name: TOSCA
 params:
-- {name: IC, type: I, default: 0, doc: ""}
-- {name: IL, type: I, default: 0, doc: ""}
-- {name: BNORM, type: E, unit: "", default: 0, doc: ""}
-- {name: XN, type: E, unit: "", default: 0, doc: ""}
-- {name: YN, type: E, unit: "", default: 0, doc: ""}
-- {name: ZN, type: E, unit: "", default: 0, doc: ""}
-- {name: TIT, type: A80, default: "", doc: ""}
-- {name: IX, type: I, default: 0, doc: ""}
-- {name: IY, type: I, default: 0, doc: ""}
-- {name: IZ, type: I, default: 0, doc: ""}
-- {name: MOD, type: I, default: 0, doc: ""}
-- {name: FNAME, type: A8000, default: "", doc: ""}
-- {name: ID, type: I, default: 0, doc: ""}
-- {name: A, type: E, unit: "", default: 0, doc: ""}
-- {name: B, type: E, unit: "", default: 0, doc: ""}
-- {name: C, type: E, unit: "", default: 0, doc: ""}
-- {name: IORDRE, type: I, default: 0, doc: ""}
-- {name: XPAS, type: X, default: 0, doc: ""}
-- {name: KPOS, type: I, default: 0, doc: ""}
-- {name: XCE, type: E, unit: "", default: 0, doc: ""}
-- {name: YCE, type: E, unit: "", default: 0, doc: ""}
-- {name: ALE, type: E, unit: "", default: 0, doc: ""}
-- {name: RE, type: E, unit: cm, default: 0, doc: ""}
-- {name: TE, type: E, unit: "", default: 0, doc: ""}
-- {name: RS, type: E, unit: cm, default: 0, doc: ""}
-- {name: TS, type: E, unit: "", default: 0, doc: ""}
+  IC: {type: I, default: 0, doc: ""}
+  IL: {type: I, default: 0, doc: ""}
+  BNORM: {type: E, unit: "", default: 0, doc: ""}
+  XN: {type: E, unit: "", default: 0, doc: ""}
+  YN: {type: E, unit: "", default: 0, doc: ""}
+  ZN: {type: E, unit: "", default: 0, doc: ""}
+  TIT: {type: A80, default: "", doc: ""}
+  IX: {type: I, default: 0, doc: ""}
+  IY: {type: I, default: 0, doc: ""}
+  IZ: {type: I, default: 0, doc: ""}
+  MOD: {type: I, default: 0, doc: ""}
+  FNAME: {type: A8000, default: "", doc: ""}
+  ID: {type: I, default: 0, doc: ""}
+  A: {type: E, unit: "", default: 0, doc: ""}
+  B: {type: E, unit: "", default: 0, doc: ""}
+  C: {type: E, unit: "", default: 0, doc: ""}
+  IORDRE: {type: I, default: 0, doc: ""}
+  XPAS: {type: X, default: 0, doc: ""}
+  KPOS: {type: I, default: 0, doc: ""}
+  XCE: {type: E, unit: "", default: 0, doc: ""}
+  YCE: {type: E, unit: "", default: 0, doc: ""}
+  ALE: {type: E, unit: "", default: 0, doc: ""}
+  RE: {type: E, unit: cm, default: 0, doc: ""}
+  TE: {type: E, unit: "", default: 0, doc: ""}
+  RS: {type: E, unit: cm, default: 0, doc: ""}
+  TS: {type: E, unit: "", default: 0, doc: ""}
 template:
 - - IC
   - IL

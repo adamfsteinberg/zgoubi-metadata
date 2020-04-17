@@ -1,11 +1,11 @@
 zgoubi_name: SCALING
 params:
-- {name: IOPT, type: I, default: 0, doc: ""}
-- {name: NFAM, type: I, default: 0, doc: ""}
-- {name: NAMEF, type: A80, default: "", doc: ""}
-- {name: NT, type: I, default: 0, doc: ""}
-- {name: SCL, type: E, unit: "", default: 0, doc: ""}
-- {name: TIM, type: I, default: 0, doc: ""}
+  IOPT: {type: I, default: 0, doc: ""}
+  NFAM: {type: I, default: 0, doc: ""}
+  NAMEF: {type: A80, default: "", doc: ""}
+  NT: {type: I, default: 0, doc: ""}
+  SCL: {type: E, unit: "", default: 0, doc: ""}
+  TIM: {type: I, default: 0, doc: ""}
 template:
 - - IOPT
   - NFAM

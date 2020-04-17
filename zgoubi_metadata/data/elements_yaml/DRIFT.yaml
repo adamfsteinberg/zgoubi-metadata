@@ -1,8 +1,6 @@
 zgoubi_name: DRIFT
 params:
-- {name: XL, type: E, unit: cm, default: 0, doc: "Length of drift"}
+  XL: {type: E, unit: cm, default: 0, doc: ""}
 template:
 - - XL
 doc: |
-  A drift tube
-  Region with no magnetic or electric field.

@@ -1,6 +1,6 @@
 zgoubi_name: SPNPRNL
 params:
-- {name: FNAME, type: A80, default: "", doc: ""}
+  FNAME: {type: A80, default: "", doc: ""}
 template:
 - - FNAME
 doc: |

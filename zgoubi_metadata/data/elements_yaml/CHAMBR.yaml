@@ -1,11 +1,11 @@
 zgoubi_name: CHAMBR
 params:
-- {name: IA, type: I, default: 0, doc: ""}
-- {name: IFORM, type: I, default: 0, doc: ""}
-- {name: YL, type: E, unit: "", default: 0, doc: ""}
-- {name: ZL, type: E, unit: "", default: 0, doc: ""}
-- {name: YC, type: E, unit: "", default: 0, doc: ""}
-- {name: ZC, type: E, unit: "", default: 0, doc: ""}
+  IA: {type: I, default: 0, doc: ""}
+  IFORM: {type: I, default: 0, doc: ""}
+  YL: {type: E, unit: "", default: 0, doc: ""}
+  ZL: {type: E, unit: "", default: 0, doc: ""}
+  YC: {type: E, unit: "", default: 0, doc: ""}
+  ZC: {type: E, unit: "", default: 0, doc: ""}
 template:
 - - IA
 - - IFORM
