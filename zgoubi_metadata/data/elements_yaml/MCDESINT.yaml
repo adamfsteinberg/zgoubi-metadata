@@ -6,9 +6,6 @@ params:
   I2: {type: I, default: 0, doc: ""}
   I3: {type: I, default: 0, doc: ""}
 template:
-- - M2
-  - M3
-- - I1
-  - I2
-  - I3
+- [M2, M3]
+- [I1, I2, I3]
 doc: |

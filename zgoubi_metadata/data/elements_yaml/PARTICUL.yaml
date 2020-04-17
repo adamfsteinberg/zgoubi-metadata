@@ -6,9 +6,5 @@ params:
   tau: {type: E, unit: "", default: 0, doc: ""}
   X: {type: E, unit: "", default: 0, doc: ""}
 template:
-- - M
-  - Q
-  - G
-  - tau
-  - X
+- [M, Q, G, tau, X]
 doc: |

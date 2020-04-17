@@ -2,5 +2,5 @@ zgoubi_name: DRIFT
 params:
   XL: {type: E, unit: cm, default: 0, doc: ""}
 template:
-- - XL
+- [XL]
 doc: |

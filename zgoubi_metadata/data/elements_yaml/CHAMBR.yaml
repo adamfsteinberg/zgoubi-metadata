@@ -7,10 +7,6 @@ params:
   YC: {type: E, unit: "", default: 0, doc: ""}
   ZC: {type: E, unit: "", default: 0, doc: ""}
 template:
-- - IA
-- - IFORM
-  - YL
-  - ZL
-  - YC
-  - ZC
+- [IA]
+- [IFORM, YL, ZL, YC, ZC]
 doc: |

@@ -4,7 +4,5 @@ params:
   KWRIT: {type: I, default: 0, doc: ""}
   K: {type: I, default: 0, doc: ""}
 template:
-- - NPASS
-  - KWRIT
-  - K
+- [NPASS, KWRIT, K]
 doc: |

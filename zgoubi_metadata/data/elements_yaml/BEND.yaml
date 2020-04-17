@@ -30,33 +30,12 @@ params:
   YCE: {type: E, unit: "", default: 0, doc: ""}
   ALE: {type: E, unit: "", default: 0, doc: ""}
 template:
-- - IL
-- - XL
-  - Sk
-  - B1
-- - X_E
-  - LAM_E
-  - W_E
-- - N
-  - C_0
-  - C_1
-  - C_2
-  - C_3
-  - C_4
-  - C_5
-- - X_S
-  - LAM_S
-  - W_S
-- - NS
-  - CS_0
-  - CS_1
-  - CS_2
-  - CS_3
-  - CS_4
-  - CS_5
-- - XPAS
-- - KPOS
-  - XCE
-  - YCE
-  - ALE
+- [IL]
+- [XL, Sk, B1]
+- [X_E, LAM_E, W_E]
+- [N, C_0, C_1, C_2, C_3, C_4, C_5]
+- [X_S, LAM_S, W_S]
+- [NS, CS_0, CS_1, CS_2, CS_3, CS_4, CS_5]
+- [XPAS]
+- [KPOS, XCE, YCE, ALE]
 doc: |

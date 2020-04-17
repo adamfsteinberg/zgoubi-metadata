@@ -4,7 +4,5 @@ params:
   YCE: {type: E, unit: "", default: 0, doc: ""}
   ALE: {type: E, unit: "", default: 0, doc: ""}
 template:
-- - XCE
-  - YCE
-  - ALE
+- [XCE, YCE, ALE]
 doc: |

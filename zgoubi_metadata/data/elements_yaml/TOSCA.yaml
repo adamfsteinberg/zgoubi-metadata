@@ -27,38 +27,23 @@ params:
   RS: {type: E, unit: cm, default: 0, doc: ""}
   TS: {type: E, unit: "", default: 0, doc: ""}
 template:
-- - IC
-  - IL
-- - BNORM
-  - XN
-  - YN
-  - ZN
-- - TIT
-- - IX
-  - IY
-  - IZ
-  - MOD
-- - FNAME
-- - ID
-  - A
-  - B
-  - C
-- - IORDRE
-- - XPAS
-- - KPOS
-- - cond_section
+- [IC, IL]
+- [BNORM, XN, YN, ZN]
+- [TIT]
+- [IX, IY, IZ, MOD]
+- [FNAME]
+- [ID, A, B, C]
+- [IORDRE]
+- [XPAS]
+- [KPOS]
+- [cond_section]
 cond_section:
 - key: KPOS
   equals: 1
   template:
-  - - XCE
-    - YCE
-    - ALE
+  - [XCE, YCE, ALE]
 - key: KPOS
   equals: 2
   template:
-  - - RE
-    - TE
-    - RS
-    - TS
+  - [RE, TE, RS, TS]
 doc: |

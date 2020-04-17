@@ -4,7 +4,6 @@ params:
   LABELS: {type: A1000, default: "", doc: ""}
   IP: {type: I, default: 0, doc: ""}
 template:
-- - FNAME
-  - LABELS
-- - IP
+- [FNAME, LABELS]
+- [IP]
 doc: |

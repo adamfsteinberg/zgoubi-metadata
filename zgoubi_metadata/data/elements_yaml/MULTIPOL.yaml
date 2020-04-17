@@ -65,68 +65,13 @@ params:
   YCE: {type: E, unit: "", default: 0, doc: ""}
   ALE: {type: E, unit: "", default: 0, doc: ""}
 template:
-- - IL
-- - XL
-  - R_0
-  - B_1
-  - B_2
-  - B_3
-  - B_4
-  - B_5
-  - B_6
-  - B_7
-  - B_8
-  - B_9
-  - B_10
-- - X_E
-  - LAM_E
-  - E_2
-  - E_3
-  - E_4
-  - E_5
-  - E_6
-  - E_7
-  - E_8
-  - E_9
-  - E_10
-- - NCE
-  - C_0
-  - C_1
-  - C_2
-  - C_3
-  - C_4
-  - C_5
-- - X_S
-  - LAM_S
-  - S_2
-  - S_3
-  - S_4
-  - S_5
-  - S_6
-  - S_7
-  - S_8
-  - S_9
-  - S_10
-- - NCS
-  - CS_0
-  - CS_1
-  - CS_2
-  - CS_3
-  - CS_4
-  - CS_5
-- - R_1
-  - R_2
-  - R_3
-  - R_4
-  - R_5
-  - R_6
-  - R_7
-  - R_8
-  - R_9
-  - R_10
-- - XPAS
-- - KPOS
-  - XCE
-  - YCE
-  - ALE
+- [IL]
+- [XL, R_0, B_1, B_2, B_3, B_4, B_5, B_6, B_7, B_8, B_9, B_10]
+- [X_E, LAM_E, E_2, E_3, E_4, E_5, E_6, E_7, E_8, E_9, E_10]
+- [NCE, C_0, C_1, C_2, C_3, C_4, C_5]
+- [X_S, LAM_S, S_2, S_3, S_4, S_5, S_6, S_7, S_8, S_9, S_10]
+- [NCS, CS_0, CS_1, CS_2, CS_3, CS_4, CS_5]
+- [R_1, R_2, R_3, R_4, R_5, R_6, R_7, R_8, R_9, R_10]
+- [XPAS]
+- [KPOS, XCE, YCE, ALE]
 doc: |

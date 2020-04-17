@@ -13,19 +13,12 @@ params:
   RS: {type: E, unit: cm, default: 0, doc: ""}
   TS: {type: E, unit: "", default: 0, doc: ""}
 template:
-- - IL
-- - N
-  - AT
-  - RM
-- - subelement1
-- - KIRD
-  - RESOL
-- - XPAS
-- - KPOS
-  - RE
-  - TE
-  - RS
-  - TS
+- [IL]
+- [N, AT, RM]
+- [subelement1]
+- [KIRD, RESOL]
+- [XPAS]
+- [KPOS, RE, TE, RS, TS]
 subelements:
 - name: subelement1
   params:
@@ -82,56 +75,14 @@ subelements:
     U2_L: {type: E, unit: "", default: 0, doc: ""}
     R2_L: {type: E, unit: "", default: 0, doc: ""}
   template:
-  - - ACN
-    - DELTA_RM
-    - BZ_0
-    - K
-  - - G0_E
-    - KAPPA_E
-  - - NCE
-    - CE_0
-    - CE_1
-    - CE_2
-    - CE_3
-    - CE_4
-    - CE_5
-    - SHIFT_E
-  - - OMEGA_E
-    - THETA_E
-    - R1_E
-    - U1_E
-    - U2_E
-    - R2_E
-  - - G0_S
-    - KAPPA_S
-  - - NCS
-    - CS_0
-    - CS_1
-    - CS_2
-    - CS_3
-    - CS_4
-    - CS_5
-    - SHIFT_S
-  - - OMEGA_S
-    - THETA_S
-    - R1_S
-    - U1_S
-    - U2_S
-    - R2_S
-  - - G0_L
-    - KAPPA_L
-  - - NCL
-    - CL_0
-    - CL_1
-    - CL_2
-    - CL_3
-    - CL_4
-    - CL_5
-    - SHIFT_L
-  - - OMEGA_L
-    - THETA_L
-    - R1_L
-    - U1_L
-    - U2_L
-    - R2_L
+  - [ACN, DELTA_RM, BZ_0, K]
+  - [G0_E, KAPPA_E]
+  - [NCE, CE_0, CE_1, CE_2, CE_3, CE_4, CE_5, SHIFT_E]
+  - [OMEGA_E, THETA_E, R1_E, U1_E, U2_E, R2_E]
+  - [G0_S, KAPPA_S]
+  - [NCS, CS_0, CS_1, CS_2, CS_3, CS_4, CS_5, SHIFT_S]
+  - [OMEGA_S, THETA_S, R1_S, U1_S, U2_S, R2_S]
+  - [G0_L, KAPPA_L]
+  - [NCL, CL_0, CL_1, CL_2, CL_3, CL_4, CL_5, SHIFT_L]
+  - [OMEGA_L, THETA_L, R1_L, U1_L, U2_L, R2_L]
 doc: |

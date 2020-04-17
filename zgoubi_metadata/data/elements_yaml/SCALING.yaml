@@ -7,10 +7,9 @@ params:
   SCL: {type: E, unit: "", default: 0, doc: ""}
   TIM: {type: I, default: 0, doc: ""}
 template:
-- - IOPT
-  - NFAM
-- - NAMEF
-- - NT
-- - SCL
-- - TIM
+- [IOPT, NFAM]
+- [NAMEF]
+- [NT]
+- [SCL]
+- [TIM]
 doc: |
