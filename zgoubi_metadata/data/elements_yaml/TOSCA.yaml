@@ -6,12 +6,13 @@ params:
   XN: {type: E, unit: "", default: 0, doc: ""}
   YN: {type: E, unit: "", default: 0, doc: ""}
   ZN: {type: E, unit: "", default: 0, doc: ""}
-  TIT: {type: A80, default: "", doc: ""}
+  TITL: {type: A80, default: "", doc: ""}
   IX: {type: I, default: 0, doc: ""}
   IY: {type: I, default: 0, doc: ""}
   IZ: {type: I, default: 0, doc: ""}
   MOD: {type: I, default: 0, doc: ""}
-  FNAME: {type: A8000, default: "", doc: ""}
+  MOD2: {type: I, default: 0, doc: ""}
+  FNAME: {type: A80, default: "", doc: ""}
   ID: {type: I, default: 0, doc: ""}
   A: {type: E, unit: "", default: 0, doc: ""}
   B: {type: E, unit: "", default: 0, doc: ""}
@@ -29,8 +30,8 @@ params:
 template:
 - [IC, IL]
 - [BNORM, XN, YN, ZN]
-- [TIT]
-- [IX, IY, IZ, MOD]
+- [TITL]
+- [IX, IY, IZ, MOD, MOD2]
 - [FNAME]
 - [ID, A, B, C]
 - [IORDRE]
