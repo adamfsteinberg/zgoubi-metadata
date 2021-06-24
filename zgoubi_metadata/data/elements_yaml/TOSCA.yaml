@@ -10,8 +10,8 @@ params:
   IX: {type: I, default: 0, doc: ""}
   IY: {type: I, default: 0, doc: ""}
   IZ: {type: I, default: 0, doc: ""}
-  MOD: {type: I, default: 0, doc: ""}
-  MOD2: {type: I, default: 0, doc: ""}
+  MOD: {type: A80, default: 0, doc: ""}
+  MOD2: {type: A80, default: 0, doc: ""}
   FNAME: {type: A80, default: "", doc: ""}
   ID: {type: I, default: 0, doc: ""}
   A: {type: E, unit: "", default: 0, doc: ""}
